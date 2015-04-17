@@ -6,4 +6,4 @@ interesting approach to temporal resolution
     sudo ./make
 
 ###Run
-    seq 100 | ./silicorn
+    sudo seq 100 | ./silicorn
