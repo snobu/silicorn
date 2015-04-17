@@ -1,0 +1,12 @@
+SNU (SNobU) GENERAL PUBLIC LICENSE
+Version 1, April 2015
+
+Copyright (C) 1983, 2015 Snobu Communications
+
+TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+
+You may do whatever you wish with this software application
+as long as you publish the modified source code, in a public GitHub.com
+repository within 30 days.
+
+The End.
