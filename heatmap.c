@@ -3,7 +3,7 @@
 #include <string.h>
 #include "global.h"
 
-unsigned int history[1024] = {0};
+unsigned int history[128] = {0};
 unsigned int history_len = sizeof(history) / sizeof(*history);
 
 void get_heatmap_color(uint8_t input) {
