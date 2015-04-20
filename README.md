@@ -4,9 +4,9 @@ temporal resolution
 
 
 ### Pics or it didn't happen
-[![Reading Low CPU Usage over SNMP][lowcpu]]
+![lowcpu](sample/lowcpu.gif "Ahh, chinese LEDs have the blues..")
 
-[![Reading High CPU Usage over SNMP][highcpu]]
+![highcpu](sample/highcpu.gif "Hmm.. CPU Usage on that Switch is too damn high!")
 
 
 ### Build
@@ -18,5 +18,3 @@ temporal resolution
 
 [Unicorn HAT]: http://shop.pimoroni.com/products/unicorn-hat
 
-[lowcpu]: sample/lowcpu.gif
-[highcpu]: sample/highcpu.gif
