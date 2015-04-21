@@ -21,15 +21,15 @@ will all get you some LED action.
 
 
 ### Adjust brightness (optional)
-Edit __hat.c__:
+Edit `hat.c`:
 ```c
-    #define BRIGHTNESS      6 /* 0-255 */`
+#define BRIGHTNESS      6 /* 0-255 */`
 ```
 
 ### Enable DEBUG output (optional)
-Edit __debug.h__:
+Edit `debug.h`:
 ```c
-    #define DEBUG 1
+#define DEBUG 1
 ```
 
 ### Build
