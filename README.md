@@ -24,7 +24,7 @@ will all get you some LED action.
     sudo make
 
 ### Test Run
-    sudo while :; do shuf -i 1-39 -n1 ; sleep 0.6 ; done | ./silicorn
+    sudo while :; do shuf -i 1-100 -n1 ; sleep 0.6 ; done | ./silicorn
     
 
 ---------------------------------------------------------------
