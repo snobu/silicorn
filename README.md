@@ -33,10 +33,14 @@ Edit `debug.h`:
 ```
 
 ### Build
-    sudo make
+```bash
+sudo make
+```
 
 ### Test Run
-    sudo `while :; do shuf -i 1-100 -n1 ; sleep 0.6 ; done | ./silicorn`
+```bash
+sudo `while :; do shuf -i 1-100 -n1 ; sleep 0.6 ; done | ./silicorn`
+```
     
 
 ---------------------------------------------------------------
