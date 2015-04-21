@@ -37,7 +37,7 @@ int main(void) {
       return -1;
   }
 
-  char buf[5] = "0\n";
+  char buf[10] = "0\n";
   /* value from stdin */
   fgets(buf, sizeof buf, stdin);
 
