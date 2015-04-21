@@ -27,8 +27,8 @@ will all get you some LED action.
     sudo seq 100 | ./silicorn
     
 
-
-### <blockquote>Alright, what do i do with this thing?</blockquote>
+---------------------------------------------------------------
+>###*Alright, what do i do with this thing?*
 
 ### Read CPU utilization over SNMP and plot every 5 seconds
 
