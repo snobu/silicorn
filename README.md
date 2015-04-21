@@ -20,6 +20,18 @@ will all get you some LED action.
 ![highcpu](sample/highcpu.gif "Hmm.. CPU Usage on that Switch is too damn high!")
 
 
+### Adjust brightness (optional)
+Edit __hat.c__:
+```c
+    #define BRIGHTNESS      6 /* 0-255 */`
+```
+
+### Enable DEBUG output (optional)
+Edit __debug.h__:
+```c
+    #define DEBUG 1
+```
+
 ### Build
     sudo make
 
