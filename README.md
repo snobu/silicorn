@@ -21,7 +21,7 @@ will all get you some LED action.
 
 
 ### Build
-    sudo ./make
+    sudo make
 
 ### Test Run
     sudo seq 100 | ./silicorn
