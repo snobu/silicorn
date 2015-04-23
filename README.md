@@ -5,13 +5,10 @@ __Silicorn__ takes in values from __0 to 100__ from stdin and draws on the HAT.
 It will remember the last 128 values, average them and change color according to a built-in heatmap `(heatmap.c)`.
 
 ### Pics or it didn't happen
-_HAT-o-graming_ modest CPU utilization from a Catalyst switch:
-
+_HAT-o-graming_ modest CPU utilization from a Catalyst switch:  
 ![lowcpu](sample/lowcpu.gif "Ahh, chinese LEDs have the best blues..")
 
-
-CPU is too damn high!
-
+CPU is too damn high!  
 ![highcpu](sample/highcpu.gif "Too damn high!")
 
 This is what __silicorn__ expects from you as input:
@@ -60,9 +57,9 @@ sudo make
 ```bash
 sudo `while :; do shuf -i 1-100 -n1 ; sleep 0.6 ; done | ./silicorn`
 ```
-            
-            
-            
+  
+  
+   
 >###*Alright, what do i do with this thing?*
 
 ### Read CPU utilization over SNMP and plot every 5 seconds
