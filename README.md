@@ -19,7 +19,7 @@ Float is good too, so:
 12.023
 0
 0.12
-100
+100.0
 ```
 will all get you some LED action.
 
