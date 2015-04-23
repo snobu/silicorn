@@ -4,6 +4,16 @@
 __Silicorn__ takes in values from __0 to 100__ from stdin and draws on the HAT.
 It will remember the last 128 values, average them and change color according to a built-in heatmap `(heatmap.c)`.
 
+### Pics or it didn't happen
+_HAT-o-graming_ modest CPU utilization from a Catalyst switch:
+
+![lowcpu](sample/lowcpu.gif "Ahh, chinese LEDs have the best blues..")
+
+
+CPU is too damn high!
+
+![highcpu](sample/highcpu.gif "Too damn high!")
+
 This is what __silicorn__ expects from you as input:
 ```bash
 pi@raspberrypi $ while :; do shuf -i 1-100 -n1 ; sleep 0.6 ; done
@@ -23,12 +33,9 @@ Float is good too, so:
 ```
 will all get you some LED action.
 
+`0` (zero) is represented one _pixel_ high. Otherwise you wouldn't know the difference between __silicorn__ not running anymore or your input just feeding in zeros. That being said, __silicorn__ doesn't break.
 
-### Pics or it didn't happen
-![lowcpu](sample/lowcpu.gif "Ahh, chinese LEDs have the best blues..")
-
-![highcpu](sample/highcpu.gif "Hmm.. CPU Usage on that Switch is too damn high!")
-
+Alright alright, if you fuzzy it really hard it will probably shit rainbows from all I/Os. Try it.
 
 ### Adjust brightness (optional)
 Edit `hat.c`:
