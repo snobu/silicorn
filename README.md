@@ -1,8 +1,18 @@
 # silicorn
 ## Draw histograms on Pimoroni's [Unicorn HAT] with colorful approach to temporal resolution
 
-Silicorn takes a value from __0 to 100__ from stdin and draws on the HAT.
+__Silicorn__ takes in values from __0 to 100__ from stdin and draws on the HAT.
 It will remember the last 128 values, average them and change color according to a built-in heatmap `(heatmap.c)`.
+
+This is what __silicorn__ expects from you as input:
+```bash
+pi@raspberrypi $ while :; do shuf -i 1-100 -n1 ; sleep 0.6 ; done
+46
+83
+0
+14
+```
+One value per line, terminated by `\n` (end-of-line).
 
 Float is good too, so:
 ```
