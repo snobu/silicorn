@@ -34,6 +34,8 @@ Edit `debug.h`:
 
 ### Build
 ```bash
+git clone https://github.com/snobu/silicorn
+cd silicorn
 sudo make
 ```
 
