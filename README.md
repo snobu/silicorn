@@ -60,9 +60,9 @@ sudo make
 ```bash
 sudo `while :; do shuf -i 1-100 -n1 ; sleep 0.6 ; done | ./silicorn`
 ```
-    
-
----------------------------------------------------------------
+            
+            
+            
 >###*Alright, what do i do with this thing?*
 
 ### Read CPU utilization over SNMP and plot every 5 seconds
