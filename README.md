@@ -11,7 +11,7 @@ _HAT-o-graming_ modest CPU utilization from a Catalyst switch:
 CPU is too damn high!  
 ![highcpu](sample/highcpu.gif "Too damn high!")
 
-This is what __silicorn__ expects from you as input:
+This is what __silicorn__ expects as input:
 ```bash
 pi@raspberrypi $ while :; do shuf -i 1-100 -n1 ; sleep 0.6 ; done
 46
@@ -32,7 +32,7 @@ will all get you some LED action.
 
 `0` (zero) is represented one _pixel_ high. Otherwise you wouldn't know the difference between __silicorn__ not running anymore or your input just feeding in zeros. That being said, __silicorn__ doesn't break.
 
-Alright alright, if you fuzzy it really hard it will probably shit rainbows from all I/Os. Try it.
+Alright alright, if you fuzz it really hard it will probably shit rainbows from all I/Os. Try it.
 
 ### Adjust brightness (optional)
 Edit `hat.c`:
@@ -60,7 +60,7 @@ sudo `while :; do shuf -i 1-100 -n1 ; sleep 0.6 ; done | ./silicorn`
   
   
    
->###*Alright, what do i do with this thing?*
+> ### *Alright, what do i do with this thing?*
 
 ### Read CPU utilization over SNMP and plot every 5 seconds
 
